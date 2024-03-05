@@ -142,15 +142,6 @@ a:hover {
     color: orange;
 }
 
-.categories-menu {
-    display: flex;
-}
-
-.categories-menu > a > p {
-    font-family: 'TupoVyazWebBold', sans-serif;
-    font-size: 50px;
-}
-
 footer {
     display: flex;
     justify-content: space-between;
