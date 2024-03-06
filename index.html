@@ -7,6 +7,7 @@
     <meta name="description" content="Это страница коллекции Смыслы" />
     <link rel="stylesheet" href="./styles.css" />
     <link href="./fonts/Tupo-Vyaz_Bold.css" rel="stylesheet">
+    <link href="./fonts/Tupo-Vyaz_Regular.css" rel="stylesheet">
     <title>Vyazan</title>
 </head>
 <body >
@@ -46,7 +47,7 @@
     </header>
 
     <main>
-        <section>
+        <section id="hero">
             <p class="badge">
                     Коллекция
              </p>
@@ -63,6 +64,109 @@
 
             <img src="./img/girl without bg.png" alt="Девушка в свитере">
         </section>
+
+        <nav class="categories-menu">
+            <a href="#">
+                <img src="img/свитер.png" alt="перейти к разделу со свитерами">
+                <p>Свитеры</p>
+            </a>
+
+            <a href="#">
+                <img src="img/жилет.png" alt="перейти к разделу с жилетами">
+                <p>Жилеты</p>
+            </a>
+
+            <a href="#">
+                <img src="img/шапка.png" alt="перейти к разделу с шапками">
+                <p>Шапки</p>
+            </a>
+
+            <a href="#">
+                <img src="img/сумка.png" alt="перейти к разделу с сумками">
+                <p>Сумки</p>
+            </a>
+        </nav>
+
+        <section class="category-section">
+            <div class="four-item-column">
+                <div class="item">
+                    <a href="#">
+                        <img src="img/свитер 1.png" alt="свитер 1">
+                        <p>12 500 ₽</p>
+                    </a>
+                    <button class="first-item-like">
+                        <img src="img/like-small.svg" alt="добавить в избранное">
+                    </button>
+                </div>
+
+                <div class="two-item-row">
+                    <div class="item">
+                        <a href="#">
+                            <img src="img/свитер 2.png" alt="свитер 2">
+                            <p>11 000 ₽</p>
+                        </a>
+
+                        <button class="small-like">
+                            <img src="img/like-small.svg" alt="добавить в избранное">
+                        </button>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="img/свитер 3.png" alt="свитер 3">
+                            <p>12 500 ₽</p>
+                        </a>
+
+                        <button class="small-like">
+                            <img src="img/like-small.svg" alt="добавить в избранное">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="#">
+                        <img src="img/свитер 4.png" alt="свитер 4">
+                        <p>16 500 ₽</p>
+                    </a>
+
+                    <button class="big-like">
+                        <img src="img/like-big.svg" alt="добавить в избранное">
+                    </button>
+                </div>
+            </div>
+
+            <div class="two-item-column">
+                <h2>Свитеры</h2>
+                <div class="item">
+                    <a href="#">
+                        <img src="img/свитер 5.png" alt="свитер 5">
+                        <p>12 500 ₽</p>
+                    </a>
+
+                    <button class="big-like">
+                        <img src="img/like-big.svg" alt="добавить в избранное">
+                    </button>
+                </div>
+
+                <div class="item-fact-row">
+                    <div class="item">
+                        <a href="#">
+                            <img src="img/свитер 6.png" alt="свитер 6">
+                            <p>12 500 ₽</p>
+                        </a>
+
+                        <button class="big-like">
+                            <img src="img/like-big.svg" alt="добавить в избранное">
+                        </button>
+                    </div>
+
+                    <div class="fact">
+                        <p class="fact-title">Hand Made</p>
+                        <p class="fact-text">Все вещи коллекции связаны мастерами вручную и представлены к покупке в единственном экземпляре</p>
+                    </div>    
+                </div>
+            </div>
+        </section>
+
     </main>
     
     <footer>
