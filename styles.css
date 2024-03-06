@@ -206,6 +206,10 @@ a:hover {
     position: relative;
 }
 
+.first-item {
+    margin-bottom: 7px;
+}
+
 .small-like {
     border: none;
     background-color: transparent;
@@ -230,8 +234,8 @@ a:hover {
     border: none;
     background-color: transparent;
     position: absolute;
-    bottom: 14px;
-    left: 37%;
+    bottom: 19px;
+    left: 42.5%;
     cursor: pointer;
 }
 
@@ -250,6 +254,12 @@ a:hover {
     font-family: 'Barlow';
     font-size: 16px;
     font-weight: 600;
+}
+
+.first-item p {
+    position: absolute;
+    bottom: 18px;
+    left: 55%;
 }
 
 .fact {
